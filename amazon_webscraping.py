@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 driver = webdriver.Chrome()
 driver.maximize_window()
 
+#exception handling
 try:
     # Open Amazon website
     driver.get("https://www.amazon.in/")
